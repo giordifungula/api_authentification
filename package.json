@@ -1,0 +1,31 @@
+{
+  "name": "api_authentification",
+  "version": "1.0.0",
+  "description": "working on a backend authentication app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giordifungula/api_authentification.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giordifungula/api_authentification/issues"
+  },
+  "homepage": "https://github.com/giordifungula/api_authentification#readme",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.7.7",
+    "mongoose-unique-validator": "2.0.3",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0"
+  }
+}
