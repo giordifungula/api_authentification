@@ -4,7 +4,8 @@
   "description": "working on a backend authentication app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,9 @@
     "jsonwebtoken": "8.5.1",
     "mongoose": "5.7.7",
     "mongoose-unique-validator": "2.0.3",
+    "nodemon": "1.19.4",
     "passport": "0.4.0",
-    "passport-jwt": "4.0.0"
+    "passport-jwt": "4.0.0",
+    "path": "0.12.7"
   }
 }
