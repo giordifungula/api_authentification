@@ -2,7 +2,21 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const path = require('path')
+const mongoose = require('mongoose');
 const cors  = require('cors')
+
+// database object
+const config = require('./config/database');
+
+// Mongo Config
+mongoose.set('useCreateIndex', true)
+// Database
+mongoose.connect(config.database, {useNewUrlParser: true})
+.then( () => {
+    console.log(`Database connected successflly with ${config.database}` )
+}).catch(err => {
+    console.log(err);
+})
 
 // App
 const app = express();
